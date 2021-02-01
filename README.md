@@ -1,5 +1,5 @@
 # Project Unite
-> An React application for increasing project collaborations in organisations.
+> A React application for increasing project collaborations in organisations.
 
 ## Table of contents
 * [General info](#general-info)
