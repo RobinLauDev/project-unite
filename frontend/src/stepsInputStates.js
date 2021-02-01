@@ -70,22 +70,4 @@ export const stepsInputStates = {
         component: Submit,
         description: "Submit"
     }
- 
-    // Step2: { 
-    //     titlee: {
-            // value: globalState.title,
-    //         error: "",
-    //         validationRules: ["isEmpty"],            
-    //     },
-    //     projectBeschrijvingg: {
-            // value: globalState.projectBeschrijving,
-    //         error: "",
-    //         validationRules: ["isEmpty"],            
-    //     },
-    //     takenBeschrijvingg: {
-            // value: globalState.takenBeschrijving,
-    //         error: "",
-    //         validationRules: ["min5Characters", "isEmpty"],            
-    //     }
-    // },
 }
