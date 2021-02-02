@@ -11,8 +11,7 @@
 
 
 ## General info
-Users can add projects and its relevant information to a database. Part of the relevant information is what skills are required for users who want to collaborate on it.
-Users who are looking to participate on projects can look for projects that fit their skillset and needs via a project search page, which also allows them to reach out to project owners with a collaboration proposal.
+Users can add their projects and its properties to a database. These projects are then searchable by other users via a projects overview page. These users who are looking for projects to collaborate on, can look for projects that fit their skills profile and other needs. If they found a project they like, they can reach out to the project owner proposing a collaboration.
 
 DEMO: https://project-unite.netlify.app/ 
 (backend is hosted on Heroku, so its not very fast)
@@ -34,13 +33,11 @@ To run this project, install the backend en frontend dependancies separately via
 
 Setup these two new ENV files in the frontend folder:
 
-.env.development
-----
+ .env.development
 REACT_APP_API_URL= "http://localhost:5000"
 REACT_APP_ENV = “dev”
 
 .env.production
-----
 REACT_APP_API_URL = "https://project-unite.herokuapp.com"
 REACT_APP_ENV = “prod”
 
